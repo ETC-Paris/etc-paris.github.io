@@ -18,6 +18,7 @@ h2 {
     font-family: 'Quicksand', Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
+	color: #FFF;
 }
 
 h1 {
@@ -98,7 +99,7 @@ h2 {
     margin: 0 auto;
     padding: 20px;
     padding-top: 4em;
-    background: white;
+    background: black;
 }
 
 .switched .container {
@@ -107,7 +108,7 @@ h2 {
 
 p {
     font-size: 14pt;
-    color: #888;
+    color: #fff;
     line-height: 1.7em;
     font-weight: 500;
 }
@@ -278,3 +279,26 @@ body.dark {
 .dark #controls {
     background: black;
 }
+
+
+/* customized toolbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
